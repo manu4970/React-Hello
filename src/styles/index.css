@@ -17,16 +17,16 @@ html, body, #app {
 }
 
 #jumContainer{
-    background-color: rgb(224, 224, 224);
+    background-color: #EAECEF;
 }
 
-img {
+#imgCard {
+    background-color: #CCCCCC;
     height: 200px;
     width: 100%;
     border: none;
 }
 
 #footer {
-    margin-top: auto;
     height: 60px;
 }
