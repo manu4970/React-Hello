@@ -1,4 +1,4 @@
-//import react into the bundle
+// import react into the bundle
 import React from "react";
 import ReactDOM from "react-dom";
 // import cardImg from "../img/card-img.js"
@@ -11,22 +11,17 @@ import "../styles/index.css";
 //import your own components
 import Nav from "./component/home.jsx";
 import Jumbotron from "./component/jumbotron.jsx";
-import Card from "./component/card.jsx";
+import { Card,CardContainer } from "./component/card.jsx";
+import Footer from "./component/footer.jsx";
+
 
 //render your react application
 ReactDOM.render(
     <React.Fragment>
-        <Nav/>
+        <Nav />
         <Jumbotron />
-        <div className="row m-0">
-            <div className="col-10 d-flex m-auto p-0">
-                <div className="row">
-                    <Card className="col-3"/>
-                    <Card className="col-3"/>
-                    <Card className="col-3"/>
-                    <Card className="col-3"/>
-                </div>
-            </div> 
-        </div>
+        <CardContainer />
+        <Footer />
     </React.Fragment>,
-    document.querySelector("#app"));
+    document.querySelector("#app")
+);

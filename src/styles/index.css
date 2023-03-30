@@ -10,17 +10,23 @@
     import 'relative/path/to/stylesheet.scss';
 
 */
+html, body, #app {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
 #jumContainer{
     background-color: rgb(224, 224, 224);
-    width: 100%;
 }
-/* .card {
-    width: 380px;
-    
-} */
 
 img {
     height: 200px;
     width: 100%;
     border: none;
+}
+
+#footer {
+    margin-top: auto;
+    height: 60px;
 }
